@@ -15,6 +15,39 @@ namespace Calculadora
         public Form1()
         {
             InitializeComponent();
+            this.BackColor = Color.DarkGray;
+           
         }
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            Numero numero1 = new Numero(this.txtNumero1.Text);
+            Numero numero2 = new Numero(this.txtNumero2.Text);
+
+            lblResultado.Text = Calculadora.Operar(numero1, numero2, this.cmbOperacion.Text).ToString();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.txtNumero1.Clear();
+            this.txtNumero2.Clear();
+            this.lblResultado.Text = "";
+            this.cmbOperacion.Text = "";
+            
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           DialogResult rta= MessageBox.Show("Seguro quiere salir??", "Atencion Saliendo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+
+           if (rta == DialogResult.No)
+           {
+               e.Cancel = true;
+               this.BackColor = Color.AliceBlue;
+           }
+            
+        }
+
+
     }
 }
