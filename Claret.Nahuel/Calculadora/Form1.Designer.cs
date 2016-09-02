@@ -34,6 +34,7 @@
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.lnklblGithub = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // btnLimpiar
@@ -91,11 +92,23 @@
             this.lblResultado.Size = new System.Drawing.Size(0, 13);
             this.lblResultado.TabIndex = 5;
             // 
+            // lnklblGithub
+            // 
+            this.lnklblGithub.AutoSize = true;
+            this.lnklblGithub.Location = new System.Drawing.Point(188, 249);
+            this.lnklblGithub.Name = "lnklblGithub";
+            this.lnklblGithub.Size = new System.Drawing.Size(89, 13);
+            this.lnklblGithub.TabIndex = 6;
+            this.lnklblGithub.TabStop = true;
+            this.lnklblGithub.Text = " By Claret Nahuel";
+            this.lnklblGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklblGithub_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.lnklblGithub);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.txtNumero1);
@@ -118,6 +131,7 @@
         private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.LinkLabel lnklblGithub;
     }
 }
 
