@@ -7,3 +7,12 @@ C:\Users\Knux\Documents\TPBeta\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calcul
 C:\Users\Knux\Documents\TPBeta\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\TP1.csproj.GenerateResource.Cache
 C:\Users\Knux\Documents\TPBeta\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\Knux\Documents\TPBeta\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Knux\Documents\TPsProgramacion2\TPBeta\Claret.Nahuel\Calculadora\obj\Debug\TP1.csproj.GenerateResource.Cache
