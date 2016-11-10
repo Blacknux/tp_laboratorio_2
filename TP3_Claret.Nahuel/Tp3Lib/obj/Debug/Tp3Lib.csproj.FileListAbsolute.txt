@@ -1,0 +1,1 @@
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\Tp3Lib.csprojResolveAssemblyReference.cache

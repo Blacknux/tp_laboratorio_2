@@ -1,0 +1,28 @@
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.dll
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
+C:\Users\Knux\Documents\Learning C#\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.dll
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
+C:\Users\Usuario\Documents\UTN\lABOpROG2\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
+E:\UTN\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.dll
+E:\UTN\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.pdb
+E:\UTN\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.dll
+E:\UTN\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.pdb
+E:\UTN\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+E:\UTN\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
+E:\UTN\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.dll
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
+C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
