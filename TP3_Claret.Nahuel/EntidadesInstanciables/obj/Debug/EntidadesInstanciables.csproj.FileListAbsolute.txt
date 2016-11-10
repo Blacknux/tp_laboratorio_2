@@ -34,3 +34,14 @@ C:\Users\Knux\Desktop\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivo
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.pdb
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.pdb
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivos.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivos.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.csprojResolveAssemblyReference.cache
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb

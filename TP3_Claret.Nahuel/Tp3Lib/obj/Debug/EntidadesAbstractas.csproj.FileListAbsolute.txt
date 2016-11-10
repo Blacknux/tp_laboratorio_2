@@ -26,3 +26,10 @@ C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Tp3Lib\bin\Debug\Excepciones.pdb
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\EntidadesAbstractas.csprojResolveAssemblyReference.cache
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\Tp3Lib.dll
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\Tp3Lib.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\bin\Debug\Tp3Lib.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\bin\Debug\Tp3Lib.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\bin\Debug\Excepciones.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\bin\Debug\Excepciones.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\EntidadesAbstractas.csprojResolveAssemblyReference.cache
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\Tp3Lib.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Tp3Lib\obj\Debug\Tp3Lib.pdb

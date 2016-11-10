@@ -12,3 +12,17 @@ C:\Users\Knux\Desktop\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Excepcione
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Tp3Lib.pdb
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
 C:\Users\Knux\Desktop\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Archivos.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\EntidadesInstanciables.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Excepciones.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Tp3Lib.dll
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Archivos.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\EntidadesInstanciables.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Excepciones.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Tp3Lib.pdb
+D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache

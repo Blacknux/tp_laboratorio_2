@@ -22,7 +22,7 @@ namespace EntidadesInstanciables
     public class Gimnasio
     {
         
-        List<Alumno> _alumno; 
+        List<Alumno> _alumnos; 
         List<Instructor> _instructores;
         List<Jornada> _jornada;
         public enum EClases
@@ -31,6 +31,14 @@ namespace EntidadesInstanciables
             Natacion,
             Pilates,
             Yoga
+        }
+
+
+        public Gimnasio()
+        {
+            this._alumnos = new List<Alumno>();
+            this._instructores = new List<Instructor>();
+            this._jornada = new List<Jornada>();
         }
 
         #region propertys
@@ -55,7 +63,7 @@ namespace EntidadesInstanciables
 
             try
             {
-                foreach (Alumno item in g1._alumno)
+                foreach (Alumno item in g1._alumnos)
                 {
 
                     if (item == a1)
@@ -147,7 +155,7 @@ namespace EntidadesInstanciables
         {
             if (g2 != a1)
             {
-                g2._alumno.Add(a1);
+                g2._alumnos.Add(a1);
             }
             return g2;
         }
@@ -179,7 +187,7 @@ namespace EntidadesInstanciables
         public static Gimnasio operator +(Gimnasio g1,EClases clase)
         {
             Jornada jornada = new Jornada(clase, g1 == clase);
-            foreach (Alumno a1 in g1._alumno)
+            foreach (Alumno a1 in g1._alumnos)
             {
                 if ( a1 == clase )
                 {
