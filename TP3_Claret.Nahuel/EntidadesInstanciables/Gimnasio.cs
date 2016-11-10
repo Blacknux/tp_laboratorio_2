@@ -198,6 +198,12 @@ namespace EntidadesInstanciables
             return g1;
         }
 
+        public override string ToString()
+        {
+            return Gimnasio.MostrarDatos(this);
+        }
+        
+
         #endregion
         #region Methods
         /// <summary>
@@ -205,7 +211,7 @@ namespace EntidadesInstanciables
         /// </summary>
         /// <param name="gym1">gimnasio a mostrar</param>
         /// <returns>string con los datos del gimnasio</returns>
-        private static string MostrarDatos(Gimnasio gym1)
+        protected static string MostrarDatos(Gimnasio gym1)
         {
             StringBuilder sb = new StringBuilder();
             foreach (Jornada a in gym1._jornada)

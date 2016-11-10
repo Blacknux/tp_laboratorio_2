@@ -101,3 +101,55 @@ Estado de cuenta: AlDia
 Toma clase de: CrossFit
 
 
+Clase: Natacion
+Instructor: Nombre: Juan
+Apellido: Lopez
+DNI: 12234456
+Nacionalidad: Argentino
+
+ID: 1
+
+Clase del dia: System.Collections.Generic.Queue`1[EntidadesInstanciables.Gimnasio+EClases]
+
+Nombre: Joaquin
+Apellido: Suarez
+DNI: 91122456
+Nacionalidad: Extranjero
+
+ID: 7
+
+Estado de cuenta: AlDia
+Toma clase de: Natacion
+
+
+Clase: Pilates
+Instructor: Nombre: Juan
+Apellido: Lopez
+DNI: 12234456
+Nacionalidad: Argentino
+
+ID: 1
+
+Clase del dia: System.Collections.Generic.Queue`1[EntidadesInstanciables.Gimnasio+EClases]
+
+Nombre: Miguel
+Apellido: Hernandez
+DNI: 92264456
+Nacionalidad: Extranjero
+
+ID: 4
+
+Estado de cuenta: AlDia
+Toma clase de: Pilates
+
+Nombre: Rodrigo
+Apellido: Smith
+DNI: 22236456
+Nacionalidad: Argentino
+
+ID: 8
+
+Estado de cuenta: AlDia
+Toma clase de: Pilates
+
+
