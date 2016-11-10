@@ -52,19 +52,23 @@ namespace EntidadesInstanciables
         /// <returns>True si a1 esta en la lista de alumnos de g1</returns>
         public static bool operator ==(Gimnasio g1, Alumno a1)
         {
-            
-            if(!(g1._alumno.Equals(null) && g1.Equals(null)))
-            {
-            foreach (Alumno item in g1._alumno)
-            {
 
-                if (item == a1)
+            try
+            {
+                foreach (Alumno item in g1._alumno)
                 {
-                    return true;
+
+                    if (item == a1)
+                    {
+                        return true;
+                    }
                 }
+                return false;
             }
+            catch (Exception e)
+            {
+                return false;
             }
-            return false;
         }
 
         /// <summary>
@@ -138,7 +142,7 @@ namespace EntidadesInstanciables
         /// </summary>
         /// <param name="g2">gimnasio donde agregar el alumno</param>
         /// <param name="a1">alumno a agregar</param>
-        /// <returns>un gimnasio con el valor agregado si corresponde</returns>
+        /// <returns>un gimnasio con el valor agregado si corresponde</returns>  
         public static Gimnasio operator +(Gimnasio g2, Alumno a1)
         {
             if (g2 != a1)

@@ -109,6 +109,13 @@ namespace EntidadesAbstractas
         #endregion
 
         #region Methods
+
+        /// <summary>
+        /// metodo que valida el dni que si es argentino o extranjero y la numeroacion que les corresponden
+        /// </summary>
+        /// <param name="naciona">nacionalidad </param>
+        /// <param name="dni">dni a validar </param>
+        /// <returns>devuelve un dni si es valido</returns>
         private int ValidarDni(ENacionalidad naciona, int dni)
         {
             if ((this._nacionalidad == ENacionalidad.Argentino && dni > 1 && dni < 89999999) ||
@@ -121,6 +128,12 @@ namespace EntidadesAbstractas
                 throw new DniInvalidoException();
             }
         }
+        /// <summary>
+        /// valida que los nombre sy los apellidos tengan caracteres validos. 
+        /// 
+        /// </summary>
+        /// <param name="dato">string a validar</param>
+        /// <returns>el string validado con el nombre o apellido o en caso de error un string null </returns>
         private string ValidarNombreApellido(string dato)
         {
             bool flag = true;
@@ -138,6 +151,10 @@ namespace EntidadesAbstractas
             else { return null; } 
         }
 
+        /// <summary>
+        /// public alos datos de una persona
+        /// </summary>
+        /// <returns>sring con los datos </returns>
         public override string ToString()
         {
             StringBuilder retorno = new StringBuilder();
