@@ -1,0 +1,14 @@
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Archivos.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Tp3Lib.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Archivos.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\bin\Debug\Tp3Lib.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\ConsoleApplication3\obj\Debug\Main.csprojResolveAssemblyReference.cache

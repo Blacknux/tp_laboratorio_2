@@ -56,3 +56,14 @@ C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciab
 C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivos.pdb
 C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.pdb
 C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivos.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\bin\Debug\Tp3Lib.pdb
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.dll
+C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb

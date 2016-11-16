@@ -36,7 +36,7 @@ namespace EntidadesAbstractas
         #region Overloads
         public static bool operator ==(PersonaGimnasio p1, PersonaGimnasio p2)
         {
-            if (p1.GetType() == p2.GetType() && p1.Dni == p2.Dni && p1._identificador == p2._identificador)
+            if (p1.GetType() == p2.GetType() && p1.Dni == p2.Dni || p1._identificador == p2._identificador )
             {
                 return true; 
             }
