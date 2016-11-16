@@ -8,20 +8,27 @@ using EntidadesAbstractas;
 
 namespace EntidadesInstanciables
 {
-    public class Instructor:PersonaGimnasio
+    public sealed class Instructor:PersonaGimnasio
     {
+        #region Atributos
         Queue<Gimnasio.EClases> _clasesDelDia;
         static Random _random;
-         static Instructor()
+        #endregion
+
+        #region Constructores
+        static Instructor()
         {
-            _random = new Random();
+            Instructor._random = new Random();
         }
+
+        public Instructor() { }
+
         public Instructor(int id, string nombre, string apellido, string dni, ENacionalidad naciona):base(id,nombre,apellido,dni,naciona)
         {
             this._clasesDelDia = new Queue<Gimnasio.EClases>();
             this._randomClases();
         }
-
+        #endregion
         /// <summary>
         /// Devuelve un string protegido con los datos del instructor
         /// </summary>
@@ -30,14 +37,14 @@ namespace EntidadesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.MostrarDatos());
-            sb.AppendLine("Clase del dia: "+this._clasesDelDia.ToString());
-            //sb.AppendLine(this._random.ToString());
+            sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
 
         }
         /// <summary>
         /// asigna dos clases de manera random a la cola de clases
         /// </summary>
+        /// //********************************************************************
         private void _randomClases()
         {
             Array list = Enum.GetValues(typeof(Gimnasio.EClases));
@@ -45,13 +52,21 @@ namespace EntidadesInstanciables
             this._clasesDelDia.Enqueue((Gimnasio.EClases)list.GetValue(_random.Next(list.Length)));
             this._clasesDelDia.Enqueue((Gimnasio.EClases)list.GetValue(_random.Next(list.Length)));
         }
+
+        //*********************************************************************************************
         /// <summary>
         /// devuelve los datos de als clases del 
         /// </summary>
         /// <returns> un strings con las clases del dia </returns>
         protected override string ParticiparEnClase()
         {
-            return "CLASES DEL DÍA: " + (Gimnasio.EClases)this._clasesDelDia.Dequeue()+","+ (Gimnasio.EClases)this._clasesDelDia.Dequeue();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("CLASES DEL DIA:");
+            foreach (Gimnasio.EClases clase in this._clasesDelDia)
+            {
+                sb.AppendLine(clase.ToString());
+            }
+            return sb.ToString();
         }
 
         /// <summary>
@@ -71,14 +86,14 @@ namespace EntidadesInstanciables
         /// <returns>True si el instructor tiene en su list a ala clase o caso contrario false</returns>
         public static bool operator ==(Instructor i1, Gimnasio.EClases c1)
         {
-            if (i1._clasesDelDia.Contains(c1))
+            bool value = false;
+            foreach (Gimnasio.EClases item in i1._clasesDelDia)
             {
-                return true;
+                if (item == c1)
+                    value = true;
+
             }
-            else
-            {
-                return false; 
-            }
+            return value;
         }
 
         public static bool operator !=(Instructor i1, Gimnasio.EClases c1)

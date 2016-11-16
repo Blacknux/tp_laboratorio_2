@@ -10,19 +10,24 @@ namespace EntidadesAbstractas
 {
     abstract public  class PersonaGimnasio:Persona
     {
-        int _identificador;
-        public PersonaGimnasio(int id, string nombre, string apellido, string dni, ENacionalidad naciona)
-            : base(nombre, apellido, dni, naciona)
-        {
-            this._identificador = id;
-        }
+        #region Atributo
+        private int _identificador;
+        #endregion
+        #region constructor 
+        public PersonaGimnasio() { }
 
+                public PersonaGimnasio(int id, string nombre, string apellido, string dni, ENacionalidad naciona)
+                    : base(nombre, apellido, dni, naciona)
+                {
+                    this._identificador = id;
+                }
+        #endregion
         #region Methods
         protected virtual string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
-            sb.AppendLine("ID: " + this._identificador);
+            sb.AppendLine("CARNET NUMERO: " + this._identificador);
             return sb.ToString(); 
         
         }
@@ -44,6 +49,10 @@ namespace EntidadesAbstractas
         public static bool operator !=(PersonaGimnasio p1, PersonaGimnasio p2)
         {
             return !(p1 == p2); 
+        }
+        public override bool Equals(object obj)
+        {
+            return (this.GetType() == obj.GetType());
         }
 
         #endregion

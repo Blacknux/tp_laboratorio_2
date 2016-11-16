@@ -12,9 +12,16 @@ namespace EntidadesInstanciables
         #region Atributos
         EEstadoCuenta _estadoCuenta;
         Gimnasio.EClases _claseQueToma; 
-
         #endregion
+
+        #region Enumerados
+        public enum EEstadoCuenta { AlDia, Deudor, MesPrueba }
+        #endregion  
+
+       
         #region Constructor
+
+        public Alumno() { }
         public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad naciona, Gimnasio.EClases claseQueToma)
             :base(id,nombre,apellido,dni,naciona)
         {
@@ -30,12 +37,7 @@ namespace EntidadesInstanciables
 
         #endregion
 
-        #region Enumerados
-        public enum EEstadoCuenta { AlDia, Deudor, MesPrueba }
         
-
-
-        #endregion  
 
         #region Overrides
         /// <summary>
@@ -46,9 +48,8 @@ namespace EntidadesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.MostrarDatos());
-            sb.AppendLine("Estado de cuenta: " + this._estadoCuenta.ToString());
-            sb.AppendLine("Toma clase de: " + this._claseQueToma.ToString());
-
+            sb.AppendLine("ESTADO DE CUENTA: " + this._estadoCuenta.ToString());
+            sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
         }
         /// <summary>
@@ -66,7 +67,7 @@ namespace EntidadesInstanciables
         /// <returns>string con los datos de que clase toma </returns>
         protected override string ParticiparEnClase()
         {
-            return ("Toma clases de: " + this._claseQueToma.ToString());
+            return ("TOMA CLASES DE: " + this._claseQueToma.ToString());
         }
 
         /// <summary>

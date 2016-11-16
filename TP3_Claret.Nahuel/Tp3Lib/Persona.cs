@@ -13,7 +13,9 @@ namespace EntidadesAbstractas
         string _nombre;
         string _apellido;
         ENacionalidad _nacionalidad;
+        int _dni;
         #endregion
+       
 
         #region Enumerados
         public enum ENacionalidad
@@ -24,7 +26,7 @@ namespace EntidadesAbstractas
         #endregion
 
         #region Propertys
-        int _dni;
+        
 
         public string Nombre
         {
@@ -78,7 +80,7 @@ namespace EntidadesAbstractas
         {
             set
             {
-                if (!int.TryParse(value, out this._dni))
+                if (!int.TryParse((value= value.Replace(".", "")) , out this._dni))
                 {
                     throw new DniInvalidoException();
                 }
@@ -86,9 +88,13 @@ namespace EntidadesAbstractas
         }
 
 
+
+
         #endregion
 
         #region Constructors
+
+        public Persona() { }
         public Persona(string nombre, string apellido, ENacionalidad naciona)
         {
             this.Apellido = apellido;
@@ -159,9 +165,9 @@ namespace EntidadesAbstractas
         {
             StringBuilder retorno = new StringBuilder();
 
-            retorno.AppendLine("Nombre: " + this.Nombre);
-            retorno.AppendLine("Apellido: " + this.Apellido);
-            retorno.AppendLine("DNI: " + this.Dni);
+            retorno.AppendLine("NOMBRE COMPLETO: " + this.Nombre + " "+ this.Apellido);
+            //retorno.AppendLine("Apellido: " + this.Apellido);
+            //retorno.AppendLine("DNI: " + this.Dni);
             retorno.AppendLine("Nacionalidad: " + this.Nacionalidad); 
 
             return retorno.ToString();

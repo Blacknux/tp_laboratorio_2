@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Xml;
 using Excepciones;
+using System.IO;
 
 namespace Archivos
 {
@@ -21,14 +22,17 @@ namespace Archivos
         {
             try
             {
-                System.Xml.Serialization.XmlSerializer serial = new XmlSerializer(typeof(T));
+                //XmlSerializer serial = new XmlSerializer(typeof(T));
+                //using (XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8))
+                //{
+                //    serial.Serialize(writer, datos);
+                //    writer.Close();
 
-                using (XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8))
-                {
-                    serial.Serialize(writer, datos);
-                    writer.Close();
-
-                }
+                //}
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
+                TextWriter writer = new StreamWriter(archivo);
+                serializer.Serialize(writer, datos);
+                writer.Close();
                 return true;
             }
             catch (Exception e)
@@ -49,7 +53,7 @@ namespace Archivos
 
             try
             {
-                System.Xml.Serialization.XmlSerializer serial = new XmlSerializer(typeof(T));
+                XmlSerializer serial = new XmlSerializer(typeof(T));
                 using (XmlTextReader reader = new XmlTextReader(archivo))
                 {
                     target = (T)serial.Deserialize(reader);

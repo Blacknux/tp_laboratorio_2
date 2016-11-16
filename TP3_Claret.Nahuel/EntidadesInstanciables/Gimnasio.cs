@@ -21,10 +21,22 @@ namespace EntidadesInstanciables
        
     public class Gimnasio
     {
-        
+        #region atributos
         List<Alumno> _alumnos; 
         List<Instructor> _instructores;
         List<Jornada> _jornada;
+        #endregion
+        #region propertys
+        public Jornada this[int i]
+        {
+            get
+            {
+                return this._jornada[i];
+            }
+        }
+        #endregion
+
+        #region enumerados
         public enum EClases
         {
             CrossFit,
@@ -32,8 +44,9 @@ namespace EntidadesInstanciables
             Pilates,
             Yoga
         }
-
-
+        #endregion
+        #region Costrutor
+        
         public Gimnasio()
         {
             this._alumnos = new List<Alumno>();
@@ -41,14 +54,6 @@ namespace EntidadesInstanciables
             this._jornada = new List<Jornada>();
         }
 
-        #region propertys
-        public Jornada this[int i ] 
-        {
-            get
-            {
-                return this._jornada[i];
-            }
-        }
         #endregion
 
         #region overrides
@@ -61,22 +66,17 @@ namespace EntidadesInstanciables
         public static bool operator ==(Gimnasio g1, Alumno a1)
         {
 
-            try
-            {
+            
                 foreach (Alumno item in g1._alumnos)
                 {
 
                     if (item == a1)
                     {
-                        return true;
+                        throw new AlumnoRepetidoException();
                     }
                 }
                 return false;
-            }
-            catch (Exception e)
-            {
-                return false;
-            }
+                
         }
 
         /// <summary>
@@ -123,26 +123,27 @@ namespace EntidadesInstanciables
 
         public static Instructor operator ==(Gimnasio g, Gimnasio.EClases clase)
         {
-            foreach (Instructor b in g._instructores)
+            foreach (Instructor item in g._instructores)
             {
-                if (b == clase)
+                if (item == clase)
                 {
-                    return b;
+                    return item;
                 }
             }
             throw new SinInstructorException();
         }
 
-        public static Instructor operator !=(Gimnasio g, EClases clase)
+        public static Instructor operator !=(Gimnasio gym1, EClases clase)
         {
-            foreach (Instructor a in g._instructores)
+            Instructor i1 = null;
+            for (int i = 0; i < gym1._instructores.Count; i++)
             {
-                if (a != clase)
-                {
-                    return a;
-                }
+                if (gym1._instructores[i] != clase)
+                    i1 = gym1._instructores[i];
             }
-            throw new SinInstructorException();
+            if (i1 == null)
+                throw new SinInstructorException();
+            return i1;
         }
 
         /// <summary>
@@ -168,14 +169,10 @@ namespace EntidadesInstanciables
         /// <returns>un gimnasio con el valor agregado si corresponde</returns>
         public static Gimnasio operator +(Gimnasio g, Instructor i)
         {
-            for (int a = 0; a < g._instructores.Count; a++)
+            if (g != i)
             {
-                if (g._instructores[a] == i)
-                {
-                    break;
-                }
+                g._instructores.Add(i);
             }
-            g._instructores.Add(i);
             return g;
         }
         /// <summary>
@@ -214,27 +211,28 @@ namespace EntidadesInstanciables
         protected static string MostrarDatos(Gimnasio gym1)
         {
             StringBuilder sb = new StringBuilder();
-            foreach (Jornada a in gym1._jornada)
+            for (int i = 0; i < gym1._jornada.Count; i++)
             {
-                sb.AppendLine(a.ToString());
-                sb.AppendLine("<-------------------------------->");
+
+                sb.AppendLine(gym1._jornada[i].ToString());
             }
+
 
             return sb.ToString();
         }
         /// <summary>
         /// guarda la informacion de un gimnasio en un Xml
         /// </summary>
-        /// <param name="gim">gimnasio a serializar</param>
+        /// <param name="gym1">gimnasio a serializar</param>
         /// <returns>True si no fallo, una execpcion si no puede guardar </returns>
-        public static bool Guardar(Gimnasio gim)
+        public static bool Guardar(Gimnasio gym1)
         {
             try
             {
             
             Console.WriteLine("XML");
             Xml<Gimnasio> xml = new Xml<Gimnasio>();
-            xml.Guardar("Gimnasio.xml", gim);
+            xml.Guardar("Gimnasio.xml", gym1);
             return true;
             }
             catch( Exception e)
@@ -246,16 +244,16 @@ namespace EntidadesInstanciables
         /// <summary>
         /// leer la informacion de un gimnasio de un xml
         /// </summary>
-        /// <param name="gim">gimnasio en el que se volcara la informacion deserializada</param>
+        /// <param name="gym">gimnasio en el que se volcara la informacion deserializada</param>
         /// <returns>un gimnasio con los datos del xml</returns>
-        public static Gimnasio Leer(Gimnasio gim)
+        public static Gimnasio Leer(Gimnasio gym)
         {
             try
             {
 
                 Xml<Gimnasio> xml = new Xml<Gimnasio>();
-                xml.Leer("Gimasio.xml", out gim);
-                return gim;
+                xml.Leer("Gimasio.xml", out gym);
+                return gym;
             }
             catch (Exception e)
             {

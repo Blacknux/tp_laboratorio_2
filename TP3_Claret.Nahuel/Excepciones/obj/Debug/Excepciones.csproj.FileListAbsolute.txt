@@ -23,3 +23,8 @@ D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\bin\Debug\Excepciones.p
 D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
 D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.dll
 D:\Claret\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\TP3_Claret.Nahuel\Excepciones\obj\Debug\Excepciones.pdb

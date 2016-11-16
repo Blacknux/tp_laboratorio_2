@@ -11,11 +11,14 @@ using Archivos;
 namespace EntidadesInstanciables
 {
   public class Jornada
-    {
+  {
+      #region atributos
         List<Alumno> _alumnos;
         Gimnasio.EClases _clase;
         Instructor _instructor;
-
+      #endregion
+        
+      #region Constructors
         public Jornada()
         {
             this._alumnos = new List<Alumno>();
@@ -28,19 +31,21 @@ namespace EntidadesInstanciables
             this._clase = clase;
             this._instructor = i1;
         }
+        #endregion
 
-
+        #region methods
         public static bool operator ==(Jornada j1, Alumno a1)
         {
             
-            
-            if (j1._alumnos.Contains(a1))
+            for (int i = 0; i < j1._alumnos.Count; i++)
             {
-                return true;
+                if (j1._alumnos[i] == a1)
+                {
+                    return true;
+                }
             }
-            else {
-                return false;
-            }
+            return false;
+            
         }
 
         public static bool operator !=(Jornada j1, Alumno a1)
@@ -50,7 +55,7 @@ namespace EntidadesInstanciables
 
         public static Jornada operator +(Jornada j1, Alumno a1)
         {
-            if (!j1._alumnos.Contains(a1))
+            if (!(j1==a1))
             {
                 j1._alumnos.Add(a1);
             }
@@ -65,18 +70,20 @@ namespace EntidadesInstanciables
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("Clase: " + this._clase);
-            sb.AppendLine("Instructor: " + this._instructor);
-            foreach(Alumno alumno in this._alumnos)
+            sb.AppendLine("JORNADA:");
+            sb.AppendLine("CLASE DE " + this._clase.ToString() + " DADA POR " + this._instructor.ToString());
+            sb.AppendLine("ALUMNOS: ");
+            foreach (Alumno item in this._alumnos)
             {
-                sb.AppendLine(alumno.ToString());
+                sb.AppendLine(item.ToString());
             }
+            sb.AppendLine("<----------------------------------------------------->");
             return sb.ToString();
         }
 
         public static bool Guardar(Jornada jornada)
         {
+            Console.WriteLine("TXT");
             try
             {
                 Texto T1 = new Texto();
@@ -89,7 +96,7 @@ namespace EntidadesInstanciables
             }
         }
 
-        public bool Leer(string archivo, out string salida)
+        public static bool Leer(string archivo, out string salida)
         {
             try
             {
@@ -103,6 +110,7 @@ namespace EntidadesInstanciables
             
             }
         }
+        #endregion
 
-    }
+  }
 }
