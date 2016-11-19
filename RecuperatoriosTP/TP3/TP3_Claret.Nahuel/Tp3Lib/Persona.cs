@@ -110,7 +110,7 @@ namespace EntidadesAbstractas
         public Persona(string nombre, string apellido, string dni, ENacionalidad naciona)
             : this(nombre, apellido, naciona)
         {
-            this.StringToDni = dni;
+            this.StringToDni = this.ValidarDni(naciona,int.Parse(dni)).ToString();
         }
         #endregion
 
@@ -122,17 +122,38 @@ namespace EntidadesAbstractas
         /// <param name="naciona">nacionalidad </param>
         /// <param name="dni">dni a validar </param>
         /// <returns>devuelve un dni si es valido</returns>
-        private int ValidarDni(ENacionalidad naciona, int dni)
+        private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if ((this._nacionalidad == ENacionalidad.Argentino && dni > 1 && dni < 89999999) ||
-            (this._nacionalidad == ENacionalidad.Extranjero && dni > 89999999 && dni < 99999999))
+            switch (nacionalidad)
             {
-                return dni;
+                case ENacionalidad.Argentino:
+                    if (dato < 1 || dato > 89999999)
+                        throw new NacionalidadInvalidaException(dato.ToString());
+                    break;
+                case ENacionalidad.Extranjero:
+                    if (dato < 89999999 || dato > 99999999)
+                        throw new NacionalidadInvalidaException();
+                    break;
             }
-            else
+            return dato;
+        }
+
+        private int ValidarDni(ENacionalidad nacionalidad, string dato)
+        {
+            dato = dato.Replace(".", "");
+            if (dato.Length < 1 || dato.Length > 8)
+                throw new DniInvalidoException();
+            int dni;
+            try
+            {
+                dni = Int32.Parse(dato);
+            }
+            catch (Exception e)
             {
                 throw new DniInvalidoException();
             }
+
+            return this.ValidarDni(nacionalidad, dni);
         }
         /// <summary>
         /// valida que los nombre sy los apellidos tengan caracteres validos. 

@@ -22,17 +22,17 @@ namespace Archivos
         {
             try
             {
-                //XmlSerializer serial = new XmlSerializer(typeof(T));
-                //using (XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8))
-                //{
-                //    serial.Serialize(writer, datos);
-                //    writer.Close();
+                XmlSerializer serial = new XmlSerializer(typeof(T));
+                using (XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8))
+                {
+                    serial.Serialize(writer, datos);
+                    writer.Close();
 
-                //}
-                XmlSerializer serializer = new XmlSerializer(typeof(T));
-                TextWriter writer = new StreamWriter(archivo);
-                serializer.Serialize(writer, datos);
-                writer.Close();
+                }
+                //XmlSerializer serializer = new XmlSerializer(typeof(T));
+                //TextWriter writer = new StreamWriter(archivo);
+                //serializer.Serialize(writer, datos);
+                //writer.Close();
                 return true;
             }
             catch (Exception e)

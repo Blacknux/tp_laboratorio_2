@@ -1,0 +1,13 @@
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\CheckDNI.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\CheckDNI.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Archivos.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Excepciones.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Tp3Lib.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Archivos.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Excepciones.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\bin\Debug\Tp3Lib.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\obj\Debug\ExceptionTests.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\obj\Debug\CheckDNI.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\CheckDNI\obj\Debug\CheckDNI.pdb

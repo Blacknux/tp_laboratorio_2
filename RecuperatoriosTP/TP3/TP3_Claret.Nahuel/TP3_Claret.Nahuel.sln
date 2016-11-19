@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 14 for Windows Desktop
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{AE392728-0140-4714-9B1D-AF9DA3A98423}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesAbstractas", "Tp3Lib\EntidadesAbstractas.csproj", "{7F03B8B1-ABF2-409A-B407-9FB0BB677E47}"
@@ -12,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{24B463A3-7F45-4A1D-9815-5CFF0751EC2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "ConsoleApplication3\Main.csproj", "{58D30AFA-3CE1-4C64-A200-68BCCA7C1EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTests", "CheckDNI\ExceptionTests.csproj", "{94742418-5698-4C3C-AF5C-0CE12B8C33F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +39,10 @@ Global
 		{58D30AFA-3CE1-4C64-A200-68BCCA7C1EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D30AFA-3CE1-4C64-A200-68BCCA7C1EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D30AFA-3CE1-4C64-A200-68BCCA7C1EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94742418-5698-4C3C-AF5C-0CE12B8C33F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94742418-5698-4C3C-AF5C-0CE12B8C33F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94742418-5698-4C3C-AF5C-0CE12B8C33F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94742418-5698-4C3C-AF5C-0CE12B8C33F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

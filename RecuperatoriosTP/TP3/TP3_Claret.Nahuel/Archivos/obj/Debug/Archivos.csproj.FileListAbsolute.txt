@@ -47,3 +47,10 @@ C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Cla
 C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
 C:\Users\Usuario\Documents\TP3Recu\TP_Laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.dll
+C:\Users\Knux\Desktop\TP3\tp_laboratorio_2\RecuperatoriosTP\TP3\TP3_Claret.Nahuel\Archivos\obj\Debug\Archivos.pdb
