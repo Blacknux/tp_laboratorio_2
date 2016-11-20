@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+  
 namespace Navegador
 {
     public partial class frmHistorial : Form

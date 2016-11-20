@@ -9,7 +9,7 @@ using System.Threading;
 namespace Hilo
 {
     public class Descargador
-    {
+    { 
         
         private Uri direccion;
         private string result;

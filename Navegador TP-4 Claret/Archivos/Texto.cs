@@ -10,8 +10,6 @@ namespace Archivos
     public class Texto : IArchivo<string>
     {
         string archivo;
-        
-
         public Texto(string archivo)
         {
             this.archivo = archivo;
@@ -20,14 +18,14 @@ namespace Archivos
         /// <summary>
         /// Realiza la escritura de un archivo .dat que contendra el historial de las paginas a las que se ingreso
         /// </summary>
-        /// <param name="datos">nuevo string para agregar al archivo</param>
+        /// <param name="dato">nuevo string para agregar al archivo</param>
         /// <returns>True si esta ok o lanza una excepcion si no puede guardar </returns>
-        public bool guardar(string datos)
+        public bool guardar(string dato)
         {
             try
             {
                 StreamWriter sw = new StreamWriter("./" + archivo, true);
-                sw.WriteLine(datos.ToString(), Encoding.UTF8);
+                sw.WriteLine(dato.ToString(), Encoding.UTF8);
                 sw.Close();
                 return true;
             }
@@ -40,17 +38,17 @@ namespace Archivos
         /// <summary>
         /// Lee el archivo .dat y lo guarda en una lista de strings la cuals e pasa por parametro anteponiendo out 
         /// </summary>
-        /// <param name="datos">lista de strings donde almacenar lo leido desde el archivo</param>
+        /// <param name="dato">lista de strings donde almacenar lo leido desde el archivo</param>
         /// <returns></returns>
-        public bool leer(out List<string> datos)
+        public bool leer(out List<string> dato)
         {
-            datos = new List<string>();
+            dato = new List<string>();
             try
             {
                 StreamReader reader = new StreamReader("./" + archivo, Encoding.UTF8);
                 while (!reader.EndOfStream)
                 {
-                    datos.Add(reader.ReadLine());
+                    dato.Add(reader.ReadLine());
                 }
                 reader.Close();
                 return true;
