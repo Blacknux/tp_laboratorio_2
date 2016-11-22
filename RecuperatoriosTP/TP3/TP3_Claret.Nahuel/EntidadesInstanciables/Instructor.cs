@@ -29,6 +29,12 @@ namespace EntidadesInstanciables
             this._randomClases();
         }
         #endregion
+
+        public static Random Random
+        {
+            get { return Instructor._random; }
+            set { Instructor._random = value; }
+        }
         /// <summary>
         /// Devuelve un string protegido con los datos del instructor
         /// </summary>

@@ -50,6 +50,18 @@ namespace EntidadesAbstractas
                 this._apellido = this.ValidarNombreApellido(value);
             }
         }
+        public int Dni
+        {
+            get
+            {
+                return this._dni;
+            }
+            set
+            {
+                this._dni = this.ValidarDni(this._nacionalidad, value);
+            }
+        }
+
         public ENacionalidad Nacionalidad
         {
             get { return this._nacionalidad; }
@@ -65,17 +77,7 @@ namespace EntidadesAbstractas
                 }
             }
         }
-        public int Dni
-        {
-            get
-            {
-                return this._dni;
-            }
-            set
-            {
-                this._dni = this.ValidarDni(this._nacionalidad, value);
-            }
-        }
+        
         public string StringToDni
         {
             set

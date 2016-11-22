@@ -17,6 +17,24 @@ namespace EntidadesInstanciables
         Gimnasio.EClases _clase;
         Instructor _instructor;
       #endregion
+
+        #region Propiedades
+        public List<Alumno> Alumnos
+        {
+            get { return this._alumnos; }
+            set { this._alumnos = value; }
+        }
+        public Gimnasio.EClases Clase
+        {
+            get { return this._clase; }
+            set { this._clase = value; }
+        }
+        public Instructor Instructor
+        {
+            get { return this._instructor; }
+            set { this._instructor = value; }
+        }
+        #endregion
         
       #region Constructors
         public Jornada()

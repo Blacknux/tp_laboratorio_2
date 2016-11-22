@@ -26,15 +26,27 @@ namespace EntidadesInstanciables
         List<Instructor> _instructores;
         List<Jornada> _jornada;
         #endregion
-        #region propertys
+    
+
+        #region Propiedades
+        public List<Alumno> Alumnos
+        {
+            get { return this._alumnos; }
+            set { this._alumnos = value; }
+        }
+        public List<Instructor> Instructores
+        {
+            get { return this._instructores; }
+            set { this._instructores = value; }
+        }
+        public List<Jornada> Jornada
+        {
+            get { return this._jornada; }
+            set { this._jornada = value; }
+        }
         public Jornada this[int i]
         {
-            get
-            {
-                return this._jornada[i];
-            }
-            
-            
+            get { return this._jornada[i]; }
         }
         #endregion
 
@@ -158,6 +170,7 @@ namespace EntidadesInstanciables
         {
             if (g2 != a1)
             {
+                
                 g2._alumnos.Add(a1);
             }
             return g2;

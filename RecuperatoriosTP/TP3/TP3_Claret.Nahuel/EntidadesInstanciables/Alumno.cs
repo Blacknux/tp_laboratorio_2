@@ -14,6 +14,17 @@ namespace EntidadesInstanciables
         Gimnasio.EClases _claseQueToma; 
         #endregion
 
+        public Gimnasio.EClases ClaseQueToma
+        {
+            get { return this._claseQueToma; }
+            set { this._claseQueToma = value; }
+        }
+        public EEstadoCuenta EstadoCuenta
+        {
+            get { return this._estadoCuenta; }
+            set { this._estadoCuenta = value; }
+        }
+
         #region Enumerados
         public enum EEstadoCuenta { AlDia, Deudor, MesPrueba }
         #endregion  

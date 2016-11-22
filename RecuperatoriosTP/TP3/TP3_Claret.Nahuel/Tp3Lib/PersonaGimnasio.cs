@@ -22,6 +22,12 @@ namespace EntidadesAbstractas
                     this._identificador = id;
                 }
         #endregion
+                public int Identificador { get { return this._identificador; } set { this._identificador = value; } }
+                
+                // public string Apellido{ get; set; }
+                // public ENacionalidad Nacionalidad { get; set; }
+                // public int Dni { get; set; }
+
         #region Methods
         protected virtual string MostrarDatos()
         {
