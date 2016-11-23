@@ -6,7 +6,7 @@ using EntidadesInstanciables;
 using Archivos; 
 
 
-namespace TestDNI
+namespace UTest
 {
     [TestClass]
     public class Test1

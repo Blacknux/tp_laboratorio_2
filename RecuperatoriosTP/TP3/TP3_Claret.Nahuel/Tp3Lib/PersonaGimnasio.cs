@@ -42,18 +42,12 @@ namespace EntidadesAbstractas
         #region Overloads
         public static bool operator ==(PersonaGimnasio p1, PersonaGimnasio p2)
         {
-            if (p1.GetType() == p2.GetType() && p1.Dni == p2.Dni || p1._identificador == p2._identificador )
-            {
-                return true; 
-            }
-            else 
-            {
-                return false;
-             }
+            if (!object.Equals(p1, null) && !object.Equals(p2, null) && (p1._identificador == p2._identificador || p1.Dni == p2.Dni))
+                return true;
+            else return false;
         }
-
         public static bool operator !=(PersonaGimnasio p1, PersonaGimnasio p2)
-        {
+        { 
             return !(p1 == p2); 
         }
         public override bool Equals(object obj)
@@ -61,6 +55,8 @@ namespace EntidadesAbstractas
             return (this.GetType() == obj.GetType());
         }
 
+
+        
         #endregion
     }
 }

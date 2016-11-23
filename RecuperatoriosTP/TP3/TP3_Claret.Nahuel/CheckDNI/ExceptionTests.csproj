@@ -6,7 +6,7 @@
     <ProjectGuid>{94742418-5698-4C3C-AF5C-0CE12B8C33F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestDNI</RootNamespace>
+    <RootNamespace>UTest</RootNamespace>
     <AssemblyName>CheckDNI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -53,6 +53,8 @@
     <Compile Include="NullTest.cs" />
     <Compile Include="TestDNI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NumeroTest.cs" />
+    <Compile Include="TestArchivos.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Archivos\Archivos.csproj">

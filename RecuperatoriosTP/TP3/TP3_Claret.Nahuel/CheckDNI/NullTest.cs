@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EntidadesInstanciables;
 using Excepciones; 
 
-namespace TestDNI
+namespace UTest
 {
     [TestClass]
     public class NullTest

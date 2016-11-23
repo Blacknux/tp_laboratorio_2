@@ -90,22 +90,31 @@ namespace EntidadesInstanciables
         /// <param name="i1">instructor a comparar</param>
         /// <param name="c1">clase a comaparar </param>
         /// <returns>True si el instructor tiene en su list a ala clase o caso contrario false</returns>
-        public static bool operator ==(Instructor i1, Gimnasio.EClases c1)
+        public static bool operator ==(Instructor i, Gimnasio.EClases clase)
         {
-            bool value = false;
-            foreach (Gimnasio.EClases item in i1._clasesDelDia)
-            {
-                if (item == c1)
-                    value = true;
 
+            bool retorno = false; 
+            if (!object.Equals(i, null))
+            {
+                foreach (Gimnasio.EClases item in i._clasesDelDia)
+                {
+                    if (item == clase)
+                        retorno = true;
+                }
             }
-            return value;
+            return retorno;
         }
 
         public static bool operator !=(Instructor i1, Gimnasio.EClases c1)
         {
             return !(i1==c1);
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
 
     }
 }
